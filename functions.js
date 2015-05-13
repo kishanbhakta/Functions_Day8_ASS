@@ -65,16 +65,12 @@ return numLetters;
 // the function should return `false`.
 
 function greaterThan (x, y) {
-var numberOne = Number(x)
-var numberTwo = Number(y)
-
-if(numberOne < numberTwo){
+if(y > x){
   document.write("true.");
   }
 else{
   document.write("false.");
   }
-
 }
 
 

@@ -24,7 +24,12 @@
 // Write a function called `sum` that takes two
 // parameters and returns the sum of those 2 numbers.
 
-function sum
+function sum (numberOne, numberTwo) {
+ var numberOne = Number(integer1);
+ var numberTwo= Number(integer2);
+ var sum = numberOne + numberTwo;
+ return sum;
+}
 
 
 
@@ -33,6 +38,13 @@ function sum
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
 
+function avg (integer1, integer2, integer3) {
+  var numberOne = Number(integer1)
+  var numberTwo = Number(integer2)
+  var numberThree= Number(integer3)
+  var mean = (numberOne + numberTwo + numberThree) / 3;
+  return mean;
+}
 
 
 
@@ -40,7 +52,10 @@ function sum
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
 
-
+function getLength (pizza) {
+var numLetters = pizza.length;
+return numLetters;
+}
 
 
 // Q4
@@ -49,7 +64,18 @@ function sum
 // parameter is greater than the first. Otherwise
 // the function should return `false`.
 
+function greaterThan (x, y) {
+var numberOne = Number(x)
+var numberTwo = Number(y)
 
+if(numberOne < numberTwo){
+  document.write("true.");
+  }
+else{
+  document.write("false.");
+  }
+
+}
 
 
 // Q5
@@ -58,8 +84,10 @@ function sum
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 
-
-
+function greet(bauceMan) {
+var salutation = "Hello" + ", " + bauceMan + "!";
+return salutation;
+}
 
 // Q6
 // Write a function called `madlib` that takes
@@ -72,8 +100,10 @@ function sum
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 
-
-
+function  madLib(word1, word2, word3, word4) {
+var madSent = word1 + " " + "baucesauce " + word2 + " " + "ran " + word3 + " " + "Atlanta " + word4 + " " + "baucelike!" ;
+return madSent;
+}
 
 ///////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
